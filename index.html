@@ -263,7 +263,7 @@ h2{font-weight:500;font-size:clamp(36px,10.5vw,46px);line-height:1.08;text-align
 .rcard .dc{display:inline-block;margin-top:16px;padding:9px 16px;border-radius:999px;border:1px solid var(--gold-lt);font:500 9px var(--caps);letter-spacing:.22em;text-transform:uppercase;color:var(--gold-lt)}
 
 /* ---------- reach ---------- */
-.map{position:relative;margin:28px auto 0;max-width:420px;border-radius:20px;overflow:hidden;background:#efe7e0 url(assets/f9bbf67791.jpg) center/cover;aspect-ratio:3/2;box-shadow:0 24px 44px -26px rgba(74,44,64,.6)}
+.map{position:relative;margin:28px auto 0;max-width:420px;border-radius:20px;overflow:hidden;background:#efe7e0 url(assets/933bd816cb.jpg) center/cover;aspect-ratio:3/2;box-shadow:0 24px 44px -26px rgba(74,44,64,.6)}
 .map svg{position:absolute;inset:0;width:100%;height:100%}
 .route{stroke-dasharray:6 7;animation:march 1.4s linear infinite}
 @keyframes march{to{stroke-dashoffset:-26}}
@@ -426,7 +426,7 @@ textarea{min-height:76px;resize:vertical}
 <path d="M172 743C161 754 160 764 172 776C184 764 183 754 172 743ZM852 743C841 754 840 764 852 776C864 764 863 754 852 743ZM512 151L517 159L512 167L507 159Z" />
 </g>
 </svg></div><div class="t">G. Sandeep Raaj &amp; K. Priyanka</div><div class="sub">28 · 01 · 2027</div></div>
-  <button id="seal" aria-label="Break the seal to open the invitation"><img class="a" src="assets/e7e73c6a1b.png" alt=""><img class="b" src="assets/e7e73c6a1b.png" alt=""><span class="glint"></span></button>
+  <button id="seal" aria-label="Break the seal to open the invitation"><span class="tapring" aria-hidden="true"></span><span class="taphand" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M24 31V10a4 4 0 0 1 8 0v17M32 27v-3a4 4 0 0 1 8 0v5M40 29v-1a4 4 0 0 1 8 0v4M48 32a4 4 0 0 1 8 0v11c0 10-7 18-17 18h-4c-6 0-10-3-13-8l-8-12a4 4 0 0 1 6-5l6 6"/></svg></span><img class="a" src="assets/e7e73c6a1b.png" alt=""><img class="b" src="assets/e7e73c6a1b.png" alt=""><span class="glint"></span></button>
   <div class="hint"><b>You're invited</b><span>Tap the seal to open</span></div>
   <div class="scratch" id="scratch"><div class="under"><small>Save the date</small><b class="foil dk">28</b><span>January 2027</span></div><canvas id="scratchCv" aria-hidden="true"></canvas><p>Scratch the gold to reveal</p><button class="sr" type="button">Reveal the date</button></div>
   <div class="flash"></div>
@@ -631,11 +631,11 @@ textarea{min-height:76px;resize:vertical}
       <h2 data-split>How to Reach</h2>
       <div class="map" id="map" data-r="zoom">
         <svg viewBox="0 0 300 200" aria-hidden="true">
-          <defs><mask id="routeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="200"><path id="routeDraw" d="M28 172 C 80 150, 70 110, 130 120 S 220 120, 236 70" fill="none" stroke="#fff" stroke-width="8" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></mask></defs>
-          <g mask="url(#routeMask)"><path class="route" d="M28 172 C 80 150, 70 110, 130 120 S 220 120, 236 70" fill="none" style="stroke:var(--rose)" stroke-width="2.6" stroke-linecap="round"/></g>
-          <circle cx="28" cy="172" r="5" style="fill:var(--gold)"/>
-          <circle class="pulse" cx="236" cy="72" r="10" fill="none" style="stroke:var(--rose)" stroke-width="1.5"/>
-          <g class="pin"><path d="M236 44c-9 0-15 7-15 15 0 11 15 25 15 25s15-14 15-25c0-8-6-15-15-15z" style="fill:var(--rose)"/><circle cx="236" cy="59" r="5" fill="#fcf7f5"/></g>
+          <defs><mask id="routeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="200"><path id="routeDraw" d="M9 176 C 30 150, 52 128, 62 112 S 100 80, 128 64 S 152 62, 166 62" fill="none" stroke="#fff" stroke-width="8" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></mask></defs>
+          <g mask="url(#routeMask)"><path class="route" d="M9 176 C 30 150, 52 128, 62 112 S 100 80, 128 64 S 152 62, 166 62" fill="none" style="stroke:var(--rose)" stroke-width="2.6" stroke-linecap="round"/></g>
+          <circle cx="9" cy="176" r="5" style="fill:var(--gold);stroke:#fff;stroke-width:1.5"/>
+          <circle class="pulse" cx="168" cy="55" r="10" fill="none" style="stroke:var(--rose)" stroke-width="1.5"/>
+          <g class="pin"><path d="M168 25c-9 0-15 7-15 15 0 11 15 25 15 25s15-14 15-25c0-8-6-15-15-15z" style="fill:var(--rose);stroke:#fff;stroke-width:1.5"/><circle cx="168" cy="40" r="5" fill="#fcf7f5"/></g>
         </svg>
       </div>
       <div class="addr" data-r>
@@ -1003,6 +1003,14 @@ textarea{min-height:76px;resize:vertical}
 .om.vin svg [stroke-width],.om.vin svg g{stroke-width:1.5px}
 .arch .om.vin{width:clamp(72px,21vw,92px);height:clamp(72px,21vw,92px);color:#6e0f1c;margin-bottom:2px}
 #gate .top .om.vin{width:clamp(76px,22vw,96px);height:clamp(76px,22vw,96px);margin:0 auto 6px;color:#ffe7a0;filter:drop-shadow(0 2px 4px rgba(0,0,0,.6)) drop-shadow(0 0 14px rgba(255,200,90,.35))}
+.taphand{position:absolute;left:60%;top:58%;width:clamp(46px,13vw,60px);height:clamp(46px,13vw,60px);z-index:6;pointer-events:none;animation:tapme 2.2s cubic-bezier(.4,0,.2,1) infinite;transform-origin:40% 10%}
+.taphand svg{width:100%;height:100%;fill:#fff8ea;stroke:#5c0f16;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 4px 6px rgba(0,0,0,.45))}
+.tapring{position:absolute;left:calc(60% + clamp(23px,6.4vw,29px));top:calc(58% + 5px);width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;border:2.5px solid #ffe7a0;box-shadow:0 0 14px rgba(255,220,140,.8);z-index:5;pointer-events:none;opacity:0;animation:tapring 2.2s ease-out infinite}
+@keyframes tapme{0%{transform:translate(14px,18px) rotate(-8deg);opacity:0}15%{opacity:1}38%{transform:translate(0,0) rotate(-14deg)}46%{transform:translate(0,0) rotate(-14deg) scale(.88)}56%{transform:translate(0,0) rotate(-14deg) scale(1)}85%{opacity:1}100%{transform:translate(14px,18px) rotate(-8deg);opacity:0}}
+@keyframes tapring{0%,44%{transform:scale(.2);opacity:0}48%{transform:scale(.35);opacity:1}100%{transform:scale(1.7);opacity:0}}
+#gate.s1 .taphand,#gate.s1 .tapring{display:none}
+@media (prefers-reduced-motion:reduce){.taphand{animation:none;transform:rotate(-14deg)}.tapring{display:none}}
+#map .route{stroke-width:3.2;filter:drop-shadow(0 1px 1px rgba(255,255,255,.8))}
 .card .art{align-content:center;gap:2px}
 .card .art .mand{opacity:.55}
 .card .art .evico{position:relative;display:block;width:86px;height:86px;filter:drop-shadow(0 2px 6px rgba(0,0,0,.25))}
